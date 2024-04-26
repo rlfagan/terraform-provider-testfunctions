@@ -1,4 +1,6 @@
 # Test Functions Provider
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fterraform-provider-testfunctions.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fterraform-provider-testfunctions?ref=badge_shield)
+
 
 This repository is a Terraform provider for testing purposes. It is not intended for production use.
 
@@ -38,3 +40,7 @@ In order to run the full suite of Acceptance tests, run `make testacc`.
 ```shell
 make testacc
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fterraform-provider-testfunctions.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fterraform-provider-testfunctions?ref=badge_large)
