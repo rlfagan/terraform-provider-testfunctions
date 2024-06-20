@@ -1,0 +1,661 @@
+repo_name: rlfagan/terraform-provider-testfunctions
+report_id: 9de0a10679e606135d0b6b914b3aba49
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T22:58:18+00:00'
+requested_by: Yantrio
+provider: github
+branch: main
+detected_tools_count: 46
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/.github/workflows/release.yml
+  detection_source: ".github/workflows/release.yml"
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.2.2
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
+- name: Masterminds/goutils
+  description: GoUtils is a Go implementation of some string manipulation libraries
+    of Apache Commons
+  package_url: https://pkg.go.dev/github.com/Masterminds/goutils
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: agext/levenshtein
+  description: Levenshtein distance and similarity metrics with customizable edit
+    costs and Winkler-like bonus for common prefix
+  package_url: https://pkg.go.dev/github.com/agext/levenshtein
+  version: 1.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: blackfriday
+  description: 'Blackfriday: a markdown processor for Go'
+  package_url: https://pkg.go.dev/github.com/russross/blackfriday
+  version: 1.6.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: cast
+  description: Safe and easy casting from one type to another in Go
+  package_url: https://pkg.go.dev/github.com/spf13/cast
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: color
+  description: Color package for Go
+  package_url: https://pkg.go.dev/github.com/fatih/color
+  version: 1.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: complete
+  description: Bash completion written in go + bash completion for go command
+  package_url: https://pkg.go.dev/github.com/posener/complete
+  version: 1.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: copystructure
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/copystructure
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: decimal
+  description: Arbitrary-precision fixed-point decimal numbers in go
+  package_url: https://pkg.go.dev/github.com/shopspring/decimal
+  version: 1.2.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: errwrap
+  description: Errwrap is a Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/errwrap
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: exp
+  description: Experimental and deprecated packages
+  package_url: https://pkg.go.dev/golang.org/x/exp
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: go-checkpoint
+  description: Checkpoint is a package for checking version information and alerts
+    for a HashiCorp product
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-checkpoint
+  version: 0.5.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: go-cleanhttp
+  description: Cleanhttp Functions for accessing "clean" Go http.Client values The
+    Go standard library contains a default called
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-cleanhttp
+  version: 0.5.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: go-hclog
+  description: A common logging package for HashiCorp tools
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-hclog
+  version: 1.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: go-multierror
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-multierror
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: go-plugin
+  description: Golang plugin system over RPC
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-plugin
+  version: 1.6.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: go-radix
+  description: Golang implementation of Radix trees
+  package_url: https://pkg.go.dev/github.com/armon/go-radix
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: go-runewidth
+  description: Go-runewidth Provides functions to get fixed width of the character
+    or string
+  package_url: https://pkg.go.dev/github.com/mattn/go-runewidth
+  version: 0.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: go-testing-interface
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-testing-interface
+  version: 1.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-15 13:31:58.000000000 Z
+- name: go-version
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-version
+  version: 1.6.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: go-wordwrap
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-wordwrap
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: hashicorp/go-uuid
+  description: Generates UUID-format strings using purely high quality random bytes
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-uuid
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-15 13:31:58.000000000 Z
+- name: logutils
+  description: Utilities for slightly better logging in Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/logutils
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: mergo
+  description: 'Mergo: merging Go structs and maps since 2013'
+  package_url: https://pkg.go.dev/github.com/imdario/mergo
+  version: 0.3.11
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: msgpack
+  description: Msgpack.org[Go] MessagePack encoding for Golang
+  package_url: https://pkg.go.dev/github.com/vmihailenco/msgpack
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: reflectwalk
+  description: Reflectwalk is a Go library for "walking" complex structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/reflectwalk
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: run
+  description: A universal mechanism to manage goroutine lifecycles
+  package_url: https://pkg.go.dev/github.com/oklog/run
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: speakeasy
+  description: Cross-platform Golang helpers for reading password input without cgo
+  package_url: https://pkg.go.dev/github.com/bgentry/speakeasy
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: xstrings
+  description: 'Xstrings: A collection of useful string functions for Go'
+  package_url: https://pkg.go.dev/github.com/huandu/xstrings
+  version: 1.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
+- name: yamux
+  description: Golang connection multiplexing library
+  package_url: https://pkg.go.dev/github.com/hashicorp/yamux
+  version: 0.1.1
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/terraform-provider-testfunctions/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: James Humphries
+  last_updated_on: 2024-04-12 11:32:39.000000000 Z
